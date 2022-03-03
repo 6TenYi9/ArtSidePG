@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<html lang="es">
+		<head>
+			<meta charset="utf-8"/>
+			<meta name="Author" content="WEI_SHAN"/>
+			<link rel="stylesheet" href="../css/comun.css" type="text/css">
+			<link rel="icon" href="../favicon/favicon.ico">
+			<title>subastar</title>
+		</head>
+		<body class="fondoc">	
+			<div id="registrar" class="ext">
+				<img src="../fotos/artside.png" alt="">
+				<form method="post" action="../documentos/exito.html">
+					<label>Introduzca su Nombre:</label>
+					<input type="text" placeholder="minimo tres letras" name="Nombre" required="required" value="ArtSidePG"><br>
+					<label>Introduzca su Apellido:</label>
+					<input type="text" placeholder="minimo tres letras" required="required" value="ArtSidePG" name="apellido"><br>
+					<label>Introduzca su Dirección:</label>
+					<input type="text" placeholder="Introduzca su direccion" name="direccion" value="C/------ ---- --- -------, Madrid" required="required"><br> 
+					<label>Introduzca su Telefono:</label>
+					<input type="tel" placeholder="Introduzca su telefono" name="telefono" value="923 664 532" required="required"><br> 
+					<label>Introduzca su Email:</label>
+					<input type="text" placeholder="________@gmail.com" name="correo" value="ArtSidePG@gmail.com"><br> 
+					<label>Tipo de Obra:</label>
+					<select name="tipo">
+						<option>Pintura</option>
+						<option>Escultura</option>
+						<option>Cerámica</option>
+						<option>Otro tipo</option>
+					</select><br>
+					<label>Introduzca la cantidad minima a subastar:</label>
+					<input type="number" min="1" placeholder="minimo un euro" value="200" name="cantidad" required="required"><br> 
+					<label>Seleccione su Obra:</label>
+					<input type="file" name="obra" required="required"><br><br>
+					<input type="submit" value="Enviar">
+				</form>
+			</div>
+		</body>
+	</html>
